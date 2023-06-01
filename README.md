@@ -11,11 +11,24 @@ On a retail website, the following discounts apply:
 
 ## Requirements
 - JDK 11
+- Kotlin 1.6.21
 ## Running the application locally
 Execute the `main` method in the `BillingApplication` class from your IDE.
 
 ### UML Diagram
-(https://drive.google.com/file/d/1mQf8da9-k-RxWxVj099qVVOPeI4sNORN/view?usp=sharing)
+![Screenshot 2023-06-01 at 15.30.40.png](Screenshot%202023-06-01%20at%2015.30.40.png)
+
 ### API Documentation - Postman
-Link (https://documenter.getpostman.com/view/10340268/Tzeak76L)
+
+      {
+      "user":{
+      "name":"himanshu",
+      "userType":0
+      },
+      "cartItemList":[
+      {"itemName":"soap","itemPrice":200,"category":2},
+      {"itemName":"Pant","itemPrice":800,"category":2},
+      {"itemName":"Laptop Battery","itemPrice":1000,"category":0}
+      ]
+      }
 
